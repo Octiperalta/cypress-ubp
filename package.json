@@ -1,0 +1,22 @@
+{
+  "name": "curso_cypress",
+  "version": "1.0.0",
+  "description": "Curso de Cypress - Dicsys",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "test:e2e": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "js"
+  ],
+  "author": "Octavio Peralta",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.7.0"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.3"
+  }
+}
