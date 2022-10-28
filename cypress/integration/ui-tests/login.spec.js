@@ -30,5 +30,7 @@ describe("Login Test", () => {
     login.getUserInput().type(Data.users[0].user);
     login.getUserPassword().type(Data.users[0].password);
     login.getLoginButton().click();
+
+    cy.url().should("include", "/account");
   });
 });

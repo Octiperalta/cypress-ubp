@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open",
-    "test:e2e": "cypress run"
+    "test:e2e": "cypress run",
+    "report": "npx cypress run --reporter mochawesome"
   },
   "keywords": [
     "cypress",

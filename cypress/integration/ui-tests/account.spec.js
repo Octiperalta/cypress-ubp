@@ -35,7 +35,7 @@ describe("Account Test", () => {
     );
   });
 
-  it.only("Successfull email update", () => {
+  it("Successfull email update", () => {
     const accountNav = new AccountPage();
 
     accountNav.getAccountSidebar().within(() => {
